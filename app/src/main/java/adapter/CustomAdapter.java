@@ -20,10 +20,7 @@ public class CustomAdapter extends ArrayAdapter<Questions> {
     public CustomAdapter(Context context, ArrayList<Questions> objects) {
         super(context,0 , objects);
     }
-
-
-
-    
+    //dfedddffff
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         if(convertView==null){
