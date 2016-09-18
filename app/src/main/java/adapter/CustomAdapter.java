@@ -21,6 +21,9 @@ public class CustomAdapter extends ArrayAdapter<Questions> {
         super(context,0 , objects);
     }
 
+
+
+    
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         if(convertView==null){
